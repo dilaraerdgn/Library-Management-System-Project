@@ -3,8 +3,8 @@ Java ve Spring Boot kullanılarak geliştirilen SOLID prensiplerine uyumlu, mikr
 
 ### 🖼 Sistem Tasarımı (UML)
 Aşağıdaki diyagram, sistemin sınıf yapısını ve servisler arası ilişkileri göstermektedir:
-
-![UML Diyagramı](./KutuphaneYonetimSistemi_UML.pdf) 
+**Not:** Detaylı UML Diyagramı ve tasarım dökümanları, ana dizindeki `KUTUPHANE_YONETİM_SİSTEMİ_PROJESİ.zip` dosyası içerisinde yer almaktadır.
+![UML Diyagramı](Kutuphane_Yonetim_Sistemi_Projesi.zip/KutuphaneYonetimSistemi_UML.pdf) 
 
 ### Özellikler
 * Kullanici Yönetimi ( GirisYap, KayıtOl )

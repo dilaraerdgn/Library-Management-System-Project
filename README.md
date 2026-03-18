@@ -1,6 +1,11 @@
 # Kütüphane Yönetim Sistemi
 Java ve Spring Boot kullanılarak geliştirilen SOLID prensiplerine uyumlu, mikro servis tabanlı bir kütüphane yönetim sistemidir. Her servis REST API ile iletişim kurar ve SQLite veritabanı kullanır.
 
+### 🖼 Sistem Tasarımı (UML)
+Aşağıdaki diyagram, sistemin sınıf yapısını ve servisler arası ilişkileri göstermektedir:
+
+![UML Diyagramı](./KutuphaneYonetimSistemi_UML.pdf) 
+
 ### Özellikler
 * Kullanici Yönetimi ( GirisYap, KayıtOl )
 * Kitap Yönetimi ( KitapEkle, KitapGuncelle, KitapAra )
@@ -25,3 +30,5 @@ Java ve Spring Boot kullanılarak geliştirilen SOLID prensiplerine uyumlu, mikr
 5. `src/main/java` klasöründen `main` sınıfına sağ tıklayın (`KullaniciServisiApplication.java` gibi).
 6. `Run As > Java Application` seçeneğine tıklayarak servisi başlatın.
 7. Başarıyla çalıştıysa terminalde `Started` yazısını görürsünüz.
+
+*Bu proje, yazılım mühendisliği prensiplerini gerçek hayat senaryolarına uygulamak amacıyla geliştirilmiştir.*
